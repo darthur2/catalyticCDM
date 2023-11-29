@@ -1,0 +1,11 @@
+Package: catalyticCDM
+Type: Package
+Title: Regularization for Cognitive Diagnosis Models via Bayesian Catalytic Shrinkage Priors
+Version: 1.0
+Date: 2023-11-29
+Author: David Arthur
+Maintainer: David Arthur <david.b.arthur.90@gmail.com>
+Description: Implements regularization for cognitive diagnosis models (CDMs) using data-driven Bayesian shrinkage priors known as catalytic priors. This allows for improved estimation of parameters in CDMs in small samples.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.11), GDINA (>= 2.9.4), NPCD (>= 1.0), nloptr (>= 2.0.3), mvtnorm (>= 1.2), gtools (>= 3.9.4)
+LinkingTo: Rcpp
